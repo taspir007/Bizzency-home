@@ -1,0 +1,85 @@
+ /* commno_css_start */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.content-space{
+    justify-content: space-between;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+h1,h2{
+    font-family: 'Abril Fatface', cursive;
+}
+h3,h4,h5,h6,a{
+    font-family: 'Ubuntu', sans-serif;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+/* commen_css_end */
+#top_m{
+ background-color: #0f2f44 ;
+}
+#top_m .row{
+    
+    justify-content: space-between;
+}
+#top_m p{
+    color: #fefefe;
+    padding: 19px 0px;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+}
+nav .row{
+    justify-content: space-between
+}
+nav a{
+    padding: 40px 19px;
+    text-transform: capitalize;
+    color: #222222;
+    line-height: 24px;
+    font-weight: 500px;
+    transition: .6s;
+}
+nav a:hover{
+    background-color: #fff9e6;
+    color: #ffc712;
+}
+.logo{
+    margin: 35px 0px;
+}
+.ion{
+    margin-top: 40px;
+    width: 30px;
+    height: 30px
+}
+nav ul li button{
+    border-radius: 50%;
+    border: 1px solid #e0e0e0;
+    background: none;
+    margin: 0px 10px;
+    transition: .6s;
+}
+nav button:hover{
+    background-color: #fff9e6;
+    color: #ffc712;
+    cursor: pointer;
+    
+}
